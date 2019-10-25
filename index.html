@@ -8,14 +8,58 @@
     <title>Two R's and an S</title>
   </head>
   <body>
-    <div class="header">
+    <div id="Heading">
       <div class="container">
-       <div "class="jumbotron">
+        <div id="Heading">
+       <div class="jumbotron">
          <h1>Welcome to "Two R's and an S"</h1>
-         <h2>Your go-to site for deciding if Ruby, Rust or Swift is the programming language for you!</h2>
+         <h2>Your go-to site for deciding if Ruby, Rust or  Swift is the programming language for you!</h2>
       </div>
     </div>
   </div>
+    <div class="container">
+      <form id="survey">
+        <div class="form-group">
+            <label id="questions"for="Born">Date of Birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+        <div class="radio">
+        <label id="questions"for="radio">How do you prefer your minerals?</label>
+        <br>
+        <label>
+          <input type="radio" name="minerals" value="polished" checked>
+          Polished and Shiny
+        </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="minerals" value="rough">
+          Rough and Raw
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="minerals" value="dont">
+          I don't care about minerals
+          </label>
+        </div>
+        <div class="radio">
+          <label id="questions"for="radio">Would you consider yourself "Basic"</label>
+          <br>
+            <label>
+              <input type="radio" name="basic" value="yes" checked>
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="basic" value="no">
+              No
+            </label>
+          </div>
+      </form>
+  </div>
+    </div>
       <div class="ruby">
         <a href="https://www.ruby-lang.org/en/"><img src="images/ruby.jpeg" alt="Ruby Logo"></a>
         <h1>Ruby</h1>

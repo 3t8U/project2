@@ -1,4 +1,4 @@
-.header {
+#Heading {
   text-align: center;
   background-color: lightgrey;
   border-radius: 50%;
@@ -21,4 +21,8 @@
 
 .swift {
   display: none;
+}
+
+#questions {
+  font-family: cursive;
 }
