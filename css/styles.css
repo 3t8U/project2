@@ -1,4 +1,4 @@
-/* #Heading {
+#Heading {
   text-align: center;
   background-color: lightgrey;
   border-radius: 50%;
@@ -9,7 +9,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
 
-} */
+}
 
 .ruby {
   display: none;
@@ -25,4 +25,10 @@
 
 .questions {
   font-family: cursive;
+}
+
+.button {
+  border-color: black;
+  border-radius: 20%;
+  background-color: pink;
 }

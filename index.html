@@ -1,11 +1,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Two R's and an S</title>
+
   </head>
   <body>
     <div id="Heading">
@@ -19,53 +20,53 @@
   </div>
     <div class="container">
       <form id="survey">
-        <div class="form-group">
-            <label class= "questions"for="Born">Date of Birth:</label>
-            <input id="born" class="form-control" type="date">
-          </div>
-        <div id="rocks"class="radio">
-        <label class="questions"for="radio">How do you prefer your minerals?</label>
-        <br>
+      <div class="form-group">
+          <label class= "questions"for="Born">Date of Birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+      <div id="rocks"class="radio">
+      <label class="questions"for="radio">How do you prefer your minerals?</label>
+      <br>
+      <label>
+        <input type="radio" name="minerals" value="polished" checked>
+        Polished and Shiny
+      </label>
+      </div>
+      <div class="radio">
         <label>
-          <input type="radio" name="minerals" value="polished" checked>
-          Polished and Shiny
+          <input type="radio" name="minerals" value="rough">
+        Rough and Raw
         </label>
-        </div>
-        <div class="radio">
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="minerals" value="dont">
+        I don't care about minerals
+        </label>
+      </div>
+      <div id="plain"class="radio">
+      <label class="questions"for="radio">Would you consider yourself "Basic"</label>
+      <br>
           <label>
-            <input type="radio" name="minerals" value="rough">
-          Rough and Raw
+            <input type="radio" name="basic" value="yes" checked>
+            Yes
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="minerals" value="dont">
-          I don't care about minerals
+            <input type="radio" name="basic" value="no">
+            No
           </label>
         </div>
-        <div id="plain"class="radio">
-          <label class="questions"for="radio">Would you consider yourself "Basic"</label>
-          <br>
-            <label>
-              <input type="radio" name="basic" value="yes" checked>
-              Yes
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="basic" value="no">
-              No
-            </label>
-          </div>
-          <div class="type">
-            <label class= "questions"for="type">Mac or PC?</label>
-            <select class="form-control" id="mac">
-              <option>Macintosh</option>
-              <option>Personal Computer</option>
-          </div>
-</div>
+        <div class="type">
+          <label class= "questions"for="type">Mac or PC?</label>
+          <select class="form-control" id="mac">
+            <option>Macintosh</option>
+            <option>Personal Computer</option>
+        </div>
+      </div>
           <div id="colon"class="radio">
-            <label class="questions"for="radio">Are you just "in love" with the semi colon?</label>
+            <label class="questions"for="radio">Would you consider yourself in love with the semi colon?<label>
             <br>
           <label>
             <input type="radio" name="semi" value="yes" checked>
@@ -78,7 +79,7 @@
             No!
           </label>
         </div>
-
+        <button type="submit" class="btn btn-default">Find my language now!</button>
       </form>
   </div>
     </div>
