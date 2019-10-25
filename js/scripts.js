@@ -2,8 +2,15 @@ $(document).ready(function() {
 
   $(".form-control").submit(function(event) {
     event.preventDefault();
-      var iceCream = $("input#ice option:selected").val();
-console.log()
+    var iceCream = $("input#ice option:selected").val();
+    var jewels = document.getElementById('rocks').val();
+    var basic = document.getElementById('plain').val();
+    var comp = $(".type option:selected").val();
+
+
+
+
+
 
 if (iceCream === 1){
   $(".ruby").show();
@@ -11,11 +18,6 @@ if (iceCream === 1){
 }else if (iceCream === 2) {
   $(".rust").show();
   $(".ruby, .swift").hide();
-// }else if (age === 22) {
-//   $(".swift").show();
-//   $(".ruby, .rust").hide();
-// } else {
-  console.log("error");
 }
 
 
