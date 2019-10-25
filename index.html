@@ -20,11 +20,11 @@
     <div class="container">
       <form id="survey">
         <div class="form-group">
-            <label id="questions"for="Born">Date of Birth:</label>
+            <label class= "questions"for="Born">Date of Birth:</label>
             <input id="born" class="form-control" type="date">
           </div>
         <div id="rocks"class="radio">
-        <label id="questions"for="radio">How do you prefer your minerals?</label>
+        <label class="questions"for="radio">How do you prefer your minerals?</label>
         <br>
         <label>
           <input type="radio" name="minerals" value="polished" checked>
@@ -44,7 +44,7 @@
           </label>
         </div>
         <div id="plain"class="radio">
-          <label id="questions"for="radio">Would you consider yourself "Basic"</label>
+          <label class="questions"for="radio">Would you consider yourself "Basic"</label>
           <br>
             <label>
               <input type="radio" name="basic" value="yes" checked>
@@ -58,13 +58,15 @@
             </label>
           </div>
           <div class="type">
-            <label id="questions"for="type">Mac or PC?</label>
+            <label class= "questions"for="type">Mac or PC?</label>
             <select class="form-control" id="mac">
               <option>Macintosh</option>
               <option>Personal Computer</option>
           </div>
-
-          <div class="radio">
+</div>
+          <div id="colon"class="radio">
+            <label class="questions"for="radio">Are you just "in love" with the semi colon?</label>
+            <br>
           <label>
             <input type="radio" name="semi" value="yes" checked>
             Yes!
