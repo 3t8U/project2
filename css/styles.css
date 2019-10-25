@@ -1,0 +1,12 @@
+.header {
+  text-align: center;
+  background-color: lightgrey;
+  border-radius: 50%;
+  border-left: 300px;
+  border-right: 300px;
+  border-top: 20px;
+  border-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
