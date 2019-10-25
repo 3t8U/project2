@@ -2,18 +2,19 @@ $(document).ready(function() {
 
   $(".form-control").submit(function(event) {
     event.preventDefault();
-      var age = $("input#born").val();
+      var iceCream = $("input#ice option:selected").val();
 console.log()
-if (age === > 21){
+
+if (iceCream === 1){
   $(".ruby").show();
   $(".rust, .swift").hide();
-}else if (age === < 23) {
+}else if (iceCream === 2) {
   $(".rust").show();
   $(".ruby, .swift").hide();
-}else if (age === 22) {
-  $(".swift").show();
-  $(".ruby, .rust").hide();
-} else {
+// }else if (age === 22) {
+//   $(".swift").show();
+//   $(".ruby, .rust").hide();
+// } else {
   console.log("error");
 }
 
