@@ -27,8 +27,13 @@
   font-family: cursive;
 }
 
-.button {
+button {
+  margin-top: 20px;
   border-color: black;
   border-radius: 20%;
   background-color: pink;
+}
+
+#answer {
+  display: none;
 }
