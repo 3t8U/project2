@@ -48,3 +48,11 @@ body {
   font-style: italic;
   font-weight: lighter;
 }
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: left;
+}
