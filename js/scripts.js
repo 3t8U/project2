@@ -1,5 +1,8 @@
+
+//Frontend Logic
+
 $(document).ready(function() {
-  $(".form-control").submit(function(event) {
+  $("form#question").submit(function(event) {
     event.preventDefault();
 
 
@@ -10,12 +13,12 @@ $(document).ready(function() {
     var basicSelect = parseInt($("input#basic option:selected").val());
 
 
-    var total = iceCream + macOr + mineralsSelect + semiColon + basicSelect;
+
+//Backend logic
+
 console.log(total);
 
-
-
-
+ var total = (iceCream + macOr + mineralsSelect + semiColon + basicSelect);
 if (total <= 4){
   alert ("please answer ALL the questions!");
 } else if(total = 5 ){
