@@ -11,19 +11,17 @@ $(document).ready(function() {
     var semiColon = parseInt($("select#semi-colon").val());
     var basicSelect = parseInt($("select#basic").val());
 
-// console.log(iceCream);
-// console.log(macOr);
-// console.log(mineralsSelect);
-// console.log(semiColon);
-// console.log(basicSelect);
+    // console.log(iceCream);
+    // console.log(macOr);
+    // console.log(mineralsSelect);
+    // console.log(semiColon);
+    // console.log(basicSelect);
     //Backend logic
 
 
 
     var total = iceCream + macOr + mineralsSelect + semiColon + basicSelect;
-    if (total <= 4){
-      alert ("please answer ALL the questions!");
-    } else if(total === 5 ){
+    if(total === 5 ){
       $(".ruby").show();
       $(".rust, .swift").hide();
     } else if (total >= 6 && total <= 8 ) {
@@ -35,9 +33,9 @@ $(document).ready(function() {
       $(".ruby, .rust").hide();
     }
 
-// console.log(total);
+    // console.log(total);
     $('#answer').show();
-    // $("#result").show();
+
 
 
   });
